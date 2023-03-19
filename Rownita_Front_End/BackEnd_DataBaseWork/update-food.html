@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>Food delight- update food</title>
+        <link rel="stylesheet" href="./css/admin.css">
+        <link rel="stylesheet" href="./css/manage-admin.css">
+        <link rel="stylesheet" href="./css/add-admin.css">
+        <link rel="stylesheet" href="./css/manage-category.css">
+    </head>
+    <body>
+        <div class="menu text-center">
+            <div class="wrapper">
+               <ul>
+                   
+                   <li>
+                       <a href="#">HOME</a>
+                   </li>
+                   <li>
+                    <a href="#">ADMIN</a>
+                </li>
+                <li>
+                    <a href="#">CATEGORY</a>
+                </li>
+                <li>
+                    <a href="#">FOODS</a>
+                </li>
+                <li>
+                    <a href="#">ORDERS</a>
+                </li>
+                <li>
+                    <a href="#">PROFILE</a>
+                </li>
+                <li>
+                    <a href="#">LOGOUT</a>
+                </li>
+               </ul>
+            </div>
+            </div>
+            <div class="main-content" >
+                <div class="wrapper">
+                  <h1>Update Category</h1> 
+                  <!--update category from start-->
+                  <form action="" method="POST" enctype="multipart/form-data">
+                  <table class="add-table"  align="center" width="30%" >
+    
+                     <tr >
+                          <td ><h3>Title :</h3></td>
+                          <td>
+                              <input type="text" name="title" value="" >
+                          </td>
+                              
+                      </tr>
+                      <tr>
+                         <td ><h3>Food Details :</h3></td>
+                         <td>
+                            <textarea name="description" cols="27" rows="4"></textarea>
+                         </td>    
+                      </tr>
+                      <tr>
+                         <td><h3> Price :</h3> </td>
+                         <td>
+                            <input type="number" name="price" >
+                        
+                         </td>
+                     </tr>
+                      <tr>
+                          <td ><h3>Current Image :</h3></td>
+                          <td>Image display</td>
+                      </tr>
+                      <tr>
+                          <td ><h3>Select New Image :</h3></td>
+                          <td>
+                              <input type="file" name="image">
+                          </td>
+                          
+                      </tr>
+                      <tr>
+                        <td><h3>Category :</h3></td>
+                        <td>
+                            <select name="category">
+                                <option value="0">test category</option> 
+                                   
+                                    
+                            </select>
+                        </td>
+                    </tr>
+                      <tr>
+                          <td ><h3> Featured :</h3> </td>
+                          <td>
+                              <input type="radio" name="featured" value="Yes">YES
+                              <input type="radio" name="featured" value="No">NO
+                          </td>
+                        
+                    </tr>
+                    <tr>
+                        <td >
+                           <h3>Active :</h3> 
+                        </td>
+                        <td><input type="radio" name="active" value="Yes">YES
+                            <input type="radio" name="active" value="No">NO
+
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" name="submit" value ="Update Food" class="btn2">
+
+                        </td>
+                    </tr>
+                      
+
+
+                  </table>
+                </form>
+                  
+
+                  <!--from ends-->
+              </div>
+              </div>
+
+<!--footer starts-->
+<div class="footer">
+    <div class="wrapper">
+       <p align="center" > Food delight.2021  Developed By - <a href="a" > Tama</a> </p>
+    </div>
+
+</div>
+
+</body>
+
+
+</html>

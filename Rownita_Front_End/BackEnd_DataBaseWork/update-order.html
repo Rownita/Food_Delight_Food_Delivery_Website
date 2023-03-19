@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title>Food delight- update orders</title>
+        <link rel="stylesheet" href="./css/admin.css">
+        <link rel="stylesheet" href="./css/manage-admin.css">
+        <link rel="stylesheet" href="./css/add-admin.css">
+        <link rel="stylesheet" href="./css/manage-category.css">
+    </head>
+    <body>
+        <div class="menu text-center">
+            <div class="wrapper">
+               <ul>
+                   
+                   <li>
+                       <a href="#">HOME</a>
+                   </li>
+                   <li>
+                    <a href="#">ADMIN</a>
+                </li>
+                <li>
+                    <a href="#">CATEGORY</a>
+                </li>
+                <li>
+                    <a href="#">FOODS</a>
+                </li>
+                <li>
+                    <a href="#">ORDERS</a>
+                </li>
+                <li>
+                    <a href="#">PROFILE</a>
+                </li>
+                <li>
+                    <a href="#">LOGOUT</a>
+                </li>
+               </ul>
+            </div>
+            </div>
+            <div class="main-content" >
+                <div class="wrapper">
+                  <h1>Update Order</h1> 
+                  <br>
+                  <!--update order from start-->
+                  <form action="" method="POST" enctype="multipart/form-data">
+                  <table class="add-table"  align="center" width="30%" >
+    
+                     <tr >
+                          <td ><h3>Food name :</h3></td>
+                          <td>
+                              <b>BIriyani</b>
+                          </td>
+                              
+                      </tr>
+                      <tr >
+                        <td ><h3>Food Price :</h3></td>
+                        <td>
+                            <b>300 BDT</b>
+                        </td>
+                            
+                    </tr>
+                      
+                      <tr>
+                         <td ><h3>Quantity :</h3></td>
+                         <td>
+                            <input type="number" name="qty" value="">
+                         </td>    
+                      </tr>
+                      <tr>
+                         <td><h3> Status :</h3> </td>
+                         <td>
+                            <select name="status">
+                              <option value="On Delivery">On Delivery</option>
+                              <option value="ordered">ordered</option>
+                              <option value="Delivered">Delivered</option>
+                              <option value="Paused">Paused</option>
+                              <option value="Canceled">Canceled</option>
+                            </select>
+                         </td>
+                     </tr>
+                      
+                      <tr>
+                        <td><h3>Customer Name :</h3></td>
+                        <td>
+                            <input type="text" name="customer_name" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h3>Customer Contact :</h3></td>
+                        <td>
+                            <input type="text" name="customer_contact" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h3>Customer Email :</h3></td>
+                        <td>
+                            <input type="text" name="customer_email" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h3>Customer Address :</h3></td>
+                        <td>
+                            <textarea name="customer_address" cols="27"rows="4"></textarea>
+                        </td>
+                    </tr>
+                      
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" name="submit" value ="Update Order" class="btn2">
+
+                        </td>
+                    </tr>
+                      
+
+
+                  </table>
+                </form>
+                  
+
+                  <!--from ends-->
+              </div>
+              </div>
+
+<!--footer starts-->
+<div class="footer">
+    <div class="wrapper">
+       <p align="center" > Food delight.2021  Developed By - <a href="a" > Tama</a> </p>
+    </div>
+
+</div>
+
+</body>
+
+
+</html>

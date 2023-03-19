@@ -1,0 +1,38 @@
+.add-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 50%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+  .add-table th,
+  .add-table td {
+    padding: 12px 15px;
+  }
+  .add-table tbody tr {
+    border-bottom: 1px solid #d81697;
+  }
+  .add-table tbody tr {
+    background-color: #f3f3f3;
+  }
+  
+    
+  
+  .btn2{
+    background-color:rgb(157, 141, 248) ;
+    padding: 2%;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 120px;
+  }
+  .btn2:hover{
+    background-color:rgb(58, 188, 192) ;
+ }
+  

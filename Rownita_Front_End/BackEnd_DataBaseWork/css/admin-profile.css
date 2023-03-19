@@ -1,0 +1,94 @@
+#FoodDelightLogo{
+     
+    width:30%;
+   height: 20px;
+    position:fixed;
+}
+
+
+.pro-rectangle{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background: #c2d800;
+
+}
+.avatar img{
+    height:120px;
+    width:150px;
+    margin-left:50px;
+    
+}
+
+#btn-update {
+    background-color:rgb(72, 141, 219) ;
+    padding: 3%;
+    color: azure;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+   
+}
+#btn-update:hover{
+    background-color:rgb(51, 7, 133) ;
+}
+.btn-detele {
+    background-color:rgb(72, 141, 219) ;
+    padding: 2%;
+    color: azure;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    
+}
+.btn-detele:hover{
+    background-color:rgb(51, 7, 133) ;
+}
+.profile-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  
+  .profile-table th,
+  .profile-table td {
+    padding: 12px 15px;
+
+  }
+  
+  .profile-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  
+  .tbl-40{
+    width:40px;
+    
+}
+.profile-table thead tr {
+    background-color: #8a0268;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  .profile-table tbody tr {
+    background-color: #f3f3f3;
+  }
+  .container{
+    background-color: #fdc8f0;
+    
+    width: 60%;
+    
+      
+    
+  }
+  
+ 
