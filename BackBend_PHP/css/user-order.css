@@ -1,0 +1,63 @@
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px whitesmoke;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+input[type=email] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px whitesmoke;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+input[type=number] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px rgb whitesmoke;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+input[type=tel] {
+    width: 60%;
+    padding: 5px 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px whitesmoke;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+input:focus {
+    background-color: rgb(213, 255, 248);
+}
+
+textarea {
+    width: 60%;
+    height: 80px;
+    padding: 8px 8px;
+    box-sizing: border-box;
+    border: 2px whitesmoke;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: black;
+    resize: none;
+}
+
+textarea:focus {
+    background-color: rgb(213, 255, 248);
+}

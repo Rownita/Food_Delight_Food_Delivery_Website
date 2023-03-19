@@ -1,0 +1,18 @@
+.tbl-40{
+    width:40px;
+    
+}
+.btn  {
+    background-color:rgb(153, 207, 5);
+    padding: 1%;
+    color: rgb(1, 15, 15);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 120px;;
+ }
+ .btn:hover{
+    background-color:rgb(85, 158, 17) ;
+ }
+ 
